@@ -27,4 +27,4 @@ Publishing results
 
 
 Future work
-*[Thunderhead Tutorials](http://www.thunderheadeng.com/pyrosim/fundamentals/)
+* [Thunderhead Tutorials](http://www.thunderheadeng.com/pyrosim/fundamentals/)

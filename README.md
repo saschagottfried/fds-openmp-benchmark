@@ -13,7 +13,7 @@ FDS Versions
 * [complete list of releases](http://firemodels.github.io/fds-smv/downloads.html) 
 
 
-Managing FDS process with Supervisor
+Managing FDS processes with Supervisor
 * [A buildout recipe to install supervisor](https://pypi.python.org/pypi/collective.recipe.supervisor)
 * [Monitoring Processes with Supervisord](https://serversforhackers.com/monitoring-processes-with-supervisord)
 

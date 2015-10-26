@@ -23,3 +23,8 @@ Planning multiple jobs using a job/task queue system
 
 Publishing results
 * [Getting Started with GitHub Pages](https://guides.github.com/features/pages)
+* 
+
+
+Future work
+*[Thunderhead Tutorials](http://www.thunderheadeng.com/pyrosim/fundamentals/)

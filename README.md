@@ -20,3 +20,6 @@ Managing FDS process with Supervisor
 
 Planning multiple jobs using a job/task queue system
 * http://python-rq.org/patterns/supervisor/
+
+Publishing results
+* [Getting Started with GitHub Pages](https://guides.github.com/features/pages)

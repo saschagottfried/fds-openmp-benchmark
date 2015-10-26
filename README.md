@@ -7,3 +7,15 @@ Variables
 * Number of Cores
 * FDS Versions
 
+
+FDS Versions 
+* 6.0.1 - 6.3.0 - run benchmark with all or selected versions
+* [complete list of releases](http://firemodels.github.io/fds-smv/downloads.html) 
+
+
+Managing FDS process with Supervisor
+* https://serversforhackers.com/monitoring-processes-with-supervisord
+
+
+Planning multiple jobs using a job/task queue system
+* http://python-rq.org/patterns/supervisor/

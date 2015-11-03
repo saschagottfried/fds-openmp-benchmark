@@ -1,6 +1,8 @@
 # fds-openmp-benchmark
 
-Answer the question on OpenMP speedup in any custom environment. This project is inspired by [OpenMP benchmark conducted by Thunderhead Engineering in 08/2014](http://www.thunderheadeng.com/2014/08/openmp-benchmarks/). Based on the assumption that the initial answer depends on lots of circumstances people want to re-run this benchmark when newer FDS version were released.
+Assess OpenMP speedup for latest versions of FDS.
+
+This project is inspired by [OpenMP benchmark conducted by Thunderhead Engineering in 08/2014](http://www.thunderheadeng.com/2014/08/openmp-benchmarks/). Run this benchmark when newer FDS versions are released.
 
 ## The model
  a simple burner that uses 1 mesh with 1.5 million cells and simulates 10 seconds of model time. This model was designed to give good OpenMP performance based on guidance in the NIST wiki document [Running FDS with OpenMP](https://github.com/firemodels/fds-smv/wiki/OpenMP-Notes) which suggests that cell counts in the 0.5 million to 2 million cell range will demonstrate the most speedup as additional threads are added.

@@ -1,0 +1,82 @@
+    1  sudo apt-get install openmpi-bin
+    2  c
+    3  cd
+    4  wget https://bintray.com/artifact/download/nist-fire-research/releases/FDS_6.1.0-SMV_6.1.10_linux64.sh
+    5  chmod +x FDS_6.1.0-SMV_6.1.10_linux64.sh 
+    6  ./FDS_6.1.0-SMV_6.1.10_linux64.sh 
+    7  ls
+    8  mkdir FDS
+    9  cd FDS
+   10  ls
+   11  tar -xvzf ../FDS_6.1.0-SMV_6.1.10_linux64.tar.gz 
+   12  bin/fds
+   13  export LD_LIBRARY_PATH=~/FDS/bin/LIB64:$LD_LIBRARY_PATH
+   14  bin/fds
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd /vagrant
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd -
+   23  ls
+   24  cd 
+   25  ls -la
+   26  mkdir /jobs
+   27  ls -la vagrant
+   28  ls -la /vagrant
+   29  cd /vagrant
+   30  ls
+   31  mkdir burner-1
+   32  cd burner-1/
+   33  ~/FDS/bin/fds ../burner-1
+   34  ~/FDS/bin/fds ../burner-1.fds
+   35  ~/FDS/bin/fds 
+   36  ldd ~/FDS/bin/fds 
+   37  cd ..
+   38  mkdir atrium
+   39  cd atrium
+   40  ls
+   41  ~/FDS/bin/fds ../atrium_with_fans.fds 
+   42  exit
+   43  top
+   44  cd /vagrant
+   45  cd atrium
+   46  ls
+   47  ~/FDS/bin/fds ../atrium_with_fans.fds 
+   48  export LD_LIBRARY_PATH=~/FDS/bin/LIB64:$LD_LIBRARY_PATH
+   49  ~/FDS/bin/fds ../atrium_with_fans.fds 
+   50  bg
+   51  touch atrium_with_fans.stop
+   52  ~/FDS/bin/fds ../atrium_with_fans.fds 
+   53  top
+   54  cd ..
+   55  mkdir burner
+   56  cd burner
+   57  ~/FDS/bin/fds ../burner.fds
+   58  cd ..
+   59  cd burner-1
+   60  ls
+   61  ~/FDS/bin/fds ../burner-1.fds
+   62  git diff burner-1
+   63  ~/FDS/bin/fds ../burner-1.fds
+   64  KMP_STACKSIZE=16m
+   65  ~/FDS/bin/fds ../burner-1.fds
+   66  export KMP_STACKSIZE=16m
+   67  ~/FDS/bin/fds ../burner-1.fds
+   68  ulimit
+   69  ulimit -s
+   70  export OMP_STACKSIZE=16m
+   71  ~/FDS/bin/fds ../burner-1.fds
+   72  export OMP_STACKSIZE=32m
+   73  ~/FDS/bin/fds ../burner-1.fds
+   74  export OMP_STACKSIZE=32m
+   75  ~/FDS/bin/fds ../burner-1.fds
+   76  cd ..
+   77  exit
+   78  history
+   79  ls
+   80  cd /vagrant
+   81  history
+   82  history > history.txt

@@ -33,6 +33,39 @@ vagrant@vagrant-ubuntu-trusty-64:~$ FDS-6.3/bin/fds
 
 ![Image of FDS Model](/images/burner-model.png)
 
+## Running the model
+Running the FDS model is easy as pie.
+
+```shell
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/burner-4$ ~/FDS/bin/fds burner-4.fds
+ Mesh   1 is assigned to MPI Process   0
+ OpenMP thread   0 of   3 assigned to MPI process   0 of   0
+ OpenMP thread   2 of   3 assigned to MPI process   0 of   0
+ OpenMP thread   3 of   3 assigned to MPI process   0 of   0
+ OpenMP thread   1 of   3 assigned to MPI process   0 of   0
+
+ Fire Dynamics Simulator
+
+ Current Date     : November  6, 2015  16:22:28
+ Version          : FDS 6.3.0
+ Revision         : Git-r1-12-gf7f4148
+ Revision Date    : Wed Sep 30 23:20:47 2015 -0400
+ Compilation Date : Oct 01, 2015  08:23:41
+
+ MPI Enabled; Number of MPI Processes:     1
+ OpenMP Enabled; Number of OpenMP Threads:   4
+
+ Job TITLE        : 
+ Job ID string    : burner-4
+
+ Time Step:      1,    Simulation Time:      0.02 s
+ Time Step:      2,    Simulation Time:      0.04 s
+ Time Step:      3,    Simulation Time:      0.05 s
+ Time Step:      4,    Simulation Time:      0.07 s
+ Time Step:      5,    Simulation Time:      0.09 s
+ Time Step:      6,    Simulation Time:      0.11 s
+```
+
 ## Benchmark OpenMP speed up
 
 * compare OpenMP speedup of latest three versions of FDS (6.1, 6.2, 6.3)

@@ -1,8 +1,31 @@
 # fds-openmp-benchmark
 
-Assess OpenMP speedup for latest versions of FDS.
+Assess OpenMP speedup for latest version of FDS.
 
 This project is inspired by [OpenMP benchmark conducted by Thunderhead Engineering in 08/2014](http://www.thunderheadeng.com/2014/08/openmp-benchmarks/). Run this benchmark when newer FDS versions are released.
+
+## FDS Working Environment
+This project provides a working FDS environment out-of-the-box. The only requisite is an installation of Vagrant. Vagrant supports Windows, Linux, MacOSX.
+
+```shell
+vagrant@vagrant-ubuntu-trusty-64:~$ FDS-6.3/bin/fds
+
+ Fire Dynamics Simulator
+
+ Current Date     : November  6, 2015  16:08:42
+ Version          : FDS 6.3.0
+ Revision         : Git-r1-12-gf7f4148
+ Revision Date    : Wed Sep 30 23:20:47 2015 -0400
+ Compilation Date : Oct 01, 2015  08:23:41
+
+ MPI Enabled; Number of MPI Processes:     1
+ OpenMP Enabled; Number of OpenMP Threads:   4
+
+ Consult FDS Users Guide Chapter, Running FDS, for further instructions.
+
+ Hit Enter to Escape...
+```
+
 
 ## The model
  a simple burner that uses 1 mesh with 1.5 million cells and simulates 10 seconds of model time. This model was designed to give good OpenMP performance based on guidance in the NIST wiki document [Running FDS with OpenMP](https://github.com/firemodels/fds-smv/wiki/OpenMP-Notes) which suggests that cell counts in the 0.5 million to 2 million cell range will demonstrate the most speedup as additional threads are added.

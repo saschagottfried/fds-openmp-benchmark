@@ -68,9 +68,9 @@ vagrant@vagrant-ubuntu-trusty-64:/vagrant/burner-4$ ~/FDS/bin/fds burner-4.fds
 
 ## Benchmark OpenMP speed up
 
-* compare OpenMP speedup of latest three versions of FDS (6.1, 6.2, 6.3)
+* compare OpenMP speedup of latest versions of FDS (6.1, 6.2, 6.3)
 * run model using 1-4 OpenMP threads (upper limit corresponds to available cores)
-* we do not run in Hyperthreading mode
+* Limit the number of threads using the OpenMP Environment to match the number of physical cores. Hyper Threading is not increasing the performance. 
 
 
 ## Data Exploration & Visualization

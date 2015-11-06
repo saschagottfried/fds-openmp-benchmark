@@ -69,19 +69,12 @@ vagrant@vagrant-ubuntu-trusty-64:/vagrant/burner-4$ ~/FDS/bin/fds burner-4.fds
 ## Benchmark OpenMP speed up
 
 * compare OpenMP speedup of latest versions of FDS (6.1, 6.2, 6.3)
+  * [latest releases](http://firemodels.github.io/fds-smv/downloads.html) 
 * run model using 1-4 OpenMP threads (upper limit corresponds to available cores)
 * Limit the number of threads using the OpenMP Environment to match the number of physical cores. Hyper Threading is not increasing the performance. 
 
 
-## Data Exploration & Visualization
-
-* Interactive Data Exploration using Smokeview & IPython Notebook
-* Script creation of 2D & 3D resources
-
-
-## Bootstrapping FDS Runtime Environment using fds-vagrant kit
-* support multiple version of FDS to run the model
-  * [complete list of releases](http://firemodels.github.io/fds-smv/downloads.html)
+## Bootstrapping FDS Runtime Environment using vagrant
 * manage MPI installation/configuration
 * manage environment variables like `LD_LIBRARY_PATH` 
   * `export LD_LIBRARY_PATH=$PATH_TO_FDS_INSTALLATION/bin/LIB64:$LD_LIBRARY_PATH` 
@@ -91,17 +84,22 @@ vagrant@vagrant-ubuntu-trusty-64:/vagrant/burner-4$ ~/FDS/bin/fds burner-4.fds
 ## Reaching your audience
 
 Introduction Page
-* [Writing an intoduction page with GitHub Markdown]()
-
+* [Writing an intoduction page with GitHub Markdown](https://help.github.com/articles/writing-on-github/)
 
 Write Larger Documentation 
 * [Getting Started with GitHub Pages](https://guides.github.com/features/pages)
+* [Getting Started with Read The Docs](https://docs.readthedocs.org/en/latest/getting_started.html)
 
 
 ## Future work
 
 Add more examples
 * Thunderhead Engineering provides plenty of [Pyrosim Tutorials](http://www.thunderheadeng.com/pyrosim/fundamentals/)
+
+
+## Data Exploration & Visualization
+* Interactive Data Exploration using Smokeview & IPython Notebook
+* Script creation of 2D & 3D resources
 
 
 ## Contributing workflow

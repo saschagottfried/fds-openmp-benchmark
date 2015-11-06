@@ -48,12 +48,22 @@ Add more examples
 * Thunderhead Engineering provides plenty of [Pyrosim Tutorials](http://www.thunderheadeng.com/pyrosim/fundamentals/)
 
 
-## Add features to improve working environment
+## Contributing workflow
 
-Managing FDS processes with Supervisor
-* [A buildout recipe to install supervisor](https://pypi.python.org/pypi/collective.recipe.supervisor)
-* [Monitoring Processes with Supervisord](https://serversforhackers.com/monitoring-processes-with-supervisord)
+Here’s how we suggest you go about proposing a change to this project:
 
+1. [Fork this project][fork] to your account.
+2. [Create a branch][branch] for the change you intend to make.
+3. Make your changes to your fork.
+4. [Send a pull request][pr] from your fork’s branch to our `master` branch.
 
-Planning multiple jobs using a job/task queue system
-* http://python-rq.org/patterns/supervisor/
+Using the web-based interface to make changes is fine too, and will help you
+by automatically forking the project and prompting to send a pull request too.
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
+[pr]: https://help.github.com/articles/using-pull-requests/
+
+## License
+
+[MIT](./LICENSE).

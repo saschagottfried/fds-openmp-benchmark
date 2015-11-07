@@ -5,7 +5,7 @@ Assess OpenMP speedup for latest versions of FDS.
 This project is inspired by [OpenMP benchmark conducted by Thunderhead Engineering in 08/2014](http://www.thunderheadeng.com/2014/08/openmp-benchmarks/). Run this benchmark when newer FDS versions are released.
 
 ## The model
- a simple burner that uses 1 mesh with 1.5 million cells and simulates 10 seconds of model time. This model was designed to give good OpenMP performance based on guidance in the NIST wiki document [Running FDS with OpenMP](https://github.com/firemodels/fds-smv/wiki/OpenMP-Notes) which suggests that cell counts in the 0.5 million to 2 million cell range will demonstrate the most speedup as additional threads are added.
+A simple burner that uses 1 mesh with 1.5 million cells and simulates 10 seconds of model time. This model was designed to give good OpenMP performance based on guidance in the NIST wiki document [Running FDS with OpenMP](https://github.com/firemodels/fds-smv/wiki/OpenMP-Notes) which suggests that cell counts in the 0.5 million to 2 million cell range will demonstrate the most speedup as additional threads are added.
 
 
 ![Image of FDS Model](/images/burner-model.png)
@@ -40,6 +40,10 @@ Introduction Page
 
 Write Larger Documentation 
 * [Getting Started with GitHub Pages](https://guides.github.com/features/pages)
+* 
+
+Continuous Documentation
+* [Getting Started with Read The Docs](https://read-the-docs.readthedocs.org/en/latest/getting_started.html#getting-started)
 
 
 ## Future work
@@ -57,3 +61,7 @@ Managing FDS processes with Supervisor
 
 Planning multiple jobs using a job/task queue system
 * http://python-rq.org/patterns/supervisor/
+
+## Learning resources
+* [Get Python using Miniconda](https://github.com/nicholsn/ansible-role-miniconda)
+* [Get OpenMPI for multi-mesh workloads](https://github.com/mrahtz/mpi-vagrant)

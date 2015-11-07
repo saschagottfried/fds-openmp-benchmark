@@ -80,3 +80,40 @@
    80  cd /vagrant
    81  history
    82  history > history.txt
+
+
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/burner-1$ history
+    1  cd /vagrant
+    2  ls
+    3  exit
+    4  top
+    5  exit
+    6  top
+    7  exit
+    8  top
+    9  exit
+   10  wget https://bintray.com/artifact/download/nist-fire-research/releases/FDS_6.1.0-SMV_6.1.10_linux64.sh
+   11  ls
+   12  bash FDS_6.1.0-SMV_6.1.10_linux64.sh 
+   13  ls
+   14  tar -xvzf FDS_6.1.0-SMV_6.1.10_linux64.tar.gz ./
+   15  pwd
+   16  cd FDS
+   17  ls
+   18  export LD_LIBRARY_PATH=~/bin/LIB64
+   19  ulimit -s unlimited
+   20  ls
+   21  bin/fds
+   22  cd /vagrant/
+   23  ls
+   24  mkdir burner-1
+   25  cd burner-1
+   26  ~/bin/fds ../burner-1.fds
+   27  ~/bin/fds 
+   28  ~/bin/fds ../burner-1.fds
+   29  exit
+   30  export LD_LIBRARY_PATH=~/bin/LIB64
+   31  ulimit -s unlimited
+   32  cd /vagrant/burner-1/
+   33  ~/bin/fds ../burner-1.fds
+   34  history

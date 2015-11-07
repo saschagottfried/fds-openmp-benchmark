@@ -35,4 +35,6 @@ Der vorgestellte Ansatz liefert keine Antwort auf Fragen zur Erschließung von l
 
 Ein Working Environment benötigt Software zur Kommunikation mit dem Repository. Eine Rolle, die FDS Simulationen starten möchte, benötigt viel Arbeitsspeicher (RAM), wenn die isolierte Umgebung auf lokalen Ressourcen laufen soll. Aktuell ist für eine ausreichende Menge Arbeitsspeicher (auch 16 GB) keine größere Investition notwendig.
 
+Die Virtualisierung der Working Environments ist unwesentlich langsamer als die übliche Ausführung von FDS  auf Bare-Metal Systemen. Es wird angenommen, dass die Vorteile der Methode die Nachteile der etwas langsameren Ausführung überwiegen.
+
 

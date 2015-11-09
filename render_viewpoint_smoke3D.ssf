@@ -1,0 +1,14 @@
+UNLOADALL
+LOAD3DSMOKE
+ SOOT MASS FRACTION
+LOADINIFILE
+ burner.ini
+LOADINIFILE
+ ../resolution_full_hd.ini
+SETVIEWPOINT
+ external
+RENDERDIR
+ ./smoke3D
+RENDERALL
+ 1
+ frame

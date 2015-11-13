@@ -4,5 +4,5 @@ ulimit -s unlimited
 mkdir burner-4
 cp burner.fds burner-4
 cd burner-4
-~/bin/fds ../burner.fds >> stdout.log
+~/bin/fds ../burner.fds &> stdout.log
 

@@ -5,7 +5,7 @@ Assess OpenMP speedup for latest version of FDS.
 This project is inspired by [OpenMP benchmark conducted by Thunderhead Engineering in 08/2014](http://www.thunderheadeng.com/2014/08/openmp-benchmarks/). Run this benchmark when newer FDS versions are released.
 
 ## FDS Working Environment
-This project provides a working FDS environment out-of-the-box. The only requisite is an installation of Vagrant. Vagrant supports Windows, Linux, MacOSX.
+This project provides a working FDS environment out-of-the-box. The only requisite is an installation of Vagrant and a Hypervisor like VMware, VirtualBox or Hyper-V. Vagrant runs on Windows, Linux, MacOSX machines.
 
 ```shell
 vagrant@vagrant-ubuntu-trusty-64:~$ FDS-6.3/bin/fds
